@@ -1,7 +1,7 @@
 #+Title: Exploits
 #+Author: Dennis Herrmann
 
-Some exploits which I've created during my OSCE preparation.
+Some exploits, which I've created during my OSCE preparation.
 
 | Software                             | Version | Type   |
 |--------------------------------------+---------+--------|
@@ -9,3 +9,4 @@ Some exploits which I've created during my OSCE preparation.
 | KarjaSoft Sami FTP Server            |   2.0.1 | Remote |
 | Ultra Mini Httpd Program (minihttpd) |     1.2 | Remote |
 | VulnServer TRUN - DEP Bypass         |       - | Remote |
+| VulnServer KSTET - Egghunter         |       - | Remote |
