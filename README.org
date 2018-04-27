@@ -12,3 +12,4 @@ Some exploits, which I've created during my OSCE preparation.
 | VulnServer KSTET - Egghunter         |       - | Remote |
 | Free Float FTP Server                |     1.0 | Remote |
 | Dup Scout Enterprise                 | 10.0.18 | Remote |
+| LabF nfsAxe FTP Client               |     3.7 | Remote |
