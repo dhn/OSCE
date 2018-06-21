@@ -1,6 +1,6 @@
 #!/usr/bin/env python
+# $Id: stack1.py,v 1.0 2018/06/21 23:11:57 dhn Exp $
 
-import time
 from pwn import *
 
 level = 1
