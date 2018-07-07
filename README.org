@@ -1,7 +1,9 @@
-#+Title: Exploits
+#+Title: OSCE
 #+Author: Dennis Herrmann
 
-Some exploits, which I've created during my OSCE preparation.
+Some [exploits|tools|templates], which I've created during my OSCE preparation.
+
+** Exploits
 
 | Software                             | Version | Type   |
 |--------------------------------------+---------+--------|
