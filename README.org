@@ -46,8 +46,10 @@ $ tree
 
 ** Tools
 
-| Name           | Description                                     |
-|----------------+-------------------------------------------------|
-| egghunter.py   | Generate an egghunter with a new Signature      |
-| disassemble.py | Disassembly shellcode with capstone            |
-| bin2op.py      | Extract the opcode from the objdump of a binary |
+| Name              | Description                                     |
+|-------------------+-------------------------------------------------|
+| egghunter.py      | Generate an egghunter with a new Signature      |
+| disassemble.py    | Disassembly shellcode with capstone             |
+| bin2op.py         | Extract the opcode from the objdump of a binary |
+| port-converter.py | Convert a port/ip addr to the network order     |
+
