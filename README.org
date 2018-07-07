@@ -24,3 +24,30 @@ Some [exploits|tools|templates], which I've created during my OSCE preparation.
 | R                                    |   3.4.4 | Local  |
 | Audiograbber                         |   1.8.3 | Local  |
 
+** Templates
+
+#+BEGIN_SRC shell
+$ tree
+├── local
+│   ├── template_class_exploit.py
+│   └── template_exploit.py
+└── remote
+    ├── ftp
+    │   ├── client
+    │   │   └── template_exploit.py
+    │   └── server
+    │       └── template_exploit.py
+    ├── http
+    │   ├── template_class_exploit.py
+    │   └── template_exploit.py
+    └── tftp
+        └── template_exploit.py
+#+END_SRC
+
+** Tools
+
+| Name           | Description                                     |
+|----------------+-------------------------------------------------|
+| egghunter.py   | Generate an egghunter with a new Signature      |
+| disassemble.py | Disassembly shellcode with capstone            |
+| bin2op.py      | Extract the opcode from the objdump of a binary |
