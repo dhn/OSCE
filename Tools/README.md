@@ -45,3 +45,22 @@ len = 27
 0x1019:	syscall	
 
 ```
+
+- bin2op.py
+
+```shell
+usage: bin2op.py [-h] -f FILE [-s {short,large}] [-p]
+
+Extract the opcode from the objdump of a binary
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FILE, --file FILE  The assembly code filename
+  -s {short,large}, --syntax {short,large}
+                        Show [less|verbose] version of opcode
+  -p, --python          Format output to python syntax
+
+Example: ./bin2op.py -f bindshell/build/bindshell.o -s large
+         ./bin2op.py -f bindshell/build/bindshell.o -s large -p
+         ./bin2op.py -f bindshell/build/bindshell.o -p
+```
