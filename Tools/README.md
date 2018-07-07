@@ -64,3 +64,13 @@ Example: ./bin2op.py -f bindshell/build/bindshell.o -s large
          ./bin2op.py -f bindshell/build/bindshell.o -s large -p
          ./bin2op.py -f bindshell/build/bindshell.o -p
 ```
+
+- port-converter.py
+```shell
+$ port-converter.py 127.11.11.1 8888
+[+] Port in dec:        8888
+[+] Port in hex:        0xb822
+[+] IP address:         127.11.11.1
+[+] IP address in hex:  0x010b0b7f
+
+```
